@@ -17,7 +17,9 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "googleServicesFile": "./google-services.json",
+      "package": "com.trieunnh.expensetracker"
     },
     "web": {
       "output": "static",
@@ -32,11 +34,18 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      "@react-native-firebase/app"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "134865a1-ff92-4c42-a02e-ad49d58f790e"
+      }
     }
   }
 }
