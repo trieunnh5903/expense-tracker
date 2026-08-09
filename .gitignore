@@ -43,4 +43,8 @@ example
 /android
 
 .eas/
+.claude/
+.vscode/
+scripts/
+CLAUDE.md
 google-services.json
